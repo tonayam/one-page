@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+.bi-check-all {
+  font-size: 2rem;
+}
+
+.stats-section {
+  background: #f8fbfe;
+}
+.stats-section {
+  color: #124265;
+}
+.stats-section h5 {
+  font-size: 14px;
+}
+.stats-section p {
+  font-weight: 700;
+  font-size: 48px;
+}
+.body img {
+  width: 100%;
+}
+.body h4 {
+  color: #124265;
+}
