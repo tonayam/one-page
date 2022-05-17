@@ -30,3 +30,10 @@ li {
 .body h4 {
   color: #124265;
 }
+.image {
+  width: 100%;
+}
+.image img {
+  width: 40%;
+  border-radius: 50%;
+}
