@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+body {
+  height: 500vh;
+}
 li {
   list-style-type: none;
 }
@@ -36,4 +38,102 @@ li {
 .image img {
   width: 40%;
   border-radius: 50%;
+}
+.brands {
+  background: #f8fbfe;
+  padding: 1rem;
+}
+.brands img {
+  filter: grayscale(100%);
+  width: 70%;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+.brands img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  transition: 0.2s linear all;
+}
+/* SERVICES STYLES */
+.services {
+  background: #f8fbfe;
+}
+.services .card {
+  border: none;
+}
+.services .logo {
+  position: relative;
+}
+.logo svg:hover {
+  fill: #47aeff;
+}
+.services .logo .bi {
+  position: absolute;
+  left: 43%;
+  top: 23%;
+  font-size: 2rem;
+  color: #47aeff;
+}
+/* CALL TO ACTION STYLES */
+.call-to-action button {
+  width: 20%;
+}
+.call-to-action button:hover {
+  background: #f8fbfe;
+  color: #2487ce;
+}
+/* PORTFOLIO */
+.portfolio li {
+  margin: 1rem;
+  cursor: pointer;
+  font-weight: 5800;
+}
+.portfolio li:hover {
+  color: #2487ce;
+}
+/* CONTACT STYLES */
+.contact i {
+  border-radius: 7px;
+}
+.contact input,
+textarea {
+  padding: 0.5rem;
+  margin: 1rem 0;
+  outline: none;
+}
+/* FOOTER STYLES */
+footer li {
+  margin: 1rem 0;
+  cursor: pointer;
+}
+footer li:hover {
+  color: #2487ce;
+}
+footer .container-fluid {
+  box-shadow: 6px 5px 10px 4px rgba(0, 0, 0, 0.2);
+}
+footer .row-one,
+.row-two,
+.contact .row {
+  padding: 0 10%;
+}
+footer input {
+  outline: none;
+}
+footer .row-two {
+  background: #f8fbfe;
+}
+.row-two li {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+.row-two i {
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+/* MEDIA QUERY FOR MOBILE DEVICES */
+@media screen and (max-width: 450px) {
+  .contact .row {
+    padding: 0;
+  }
 }
